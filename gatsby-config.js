@@ -11,14 +11,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-algolia`,
-      options: {
-        appId: process.env.GATSBY_ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        queries: require("./src/utils/algolia-queries"),
-      },
-    },
-    {
       resolve: `gatsby-plugin-sharp`,
       options: {
         // Available options and their defaults:
@@ -40,6 +32,8 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 832,
+              showCaptions: true,
+              quality: 100,
             },
           },
           {
@@ -118,6 +112,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-styled-components`,
   ],
 }

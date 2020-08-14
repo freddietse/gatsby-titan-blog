@@ -1,6 +1,6 @@
 ---
 title: "深入理解 REST 架构"
-date: "2020-07-16"
+date: "August 12, 2020"
 ---
 
 REST 是 Representational State Transfer 的缩写，译作「表现层状态转换」。Roy Thomas Fielding 在他的博士论文中最早提出了这一概念。他同时还是 HTTP 协议（ 1.0 版和 1.1 版 ）的主要设计者、Apache 服务器软件的作者之一、Apache 基金会的第一任主席。

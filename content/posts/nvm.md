@@ -1,6 +1,6 @@
 ---
 title: "NVM – Node.js 版本管理器"
-date: "2020-07-16"
+date: "August 11, 2020"
 ---
 
 ### 安装配置
