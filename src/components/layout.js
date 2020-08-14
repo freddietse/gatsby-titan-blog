@@ -4,9 +4,6 @@ import Navbar from "./navbar"
 import SocialMedia from "./socialMedia"
 import Footer from "./footer"
 
-import Search from "./search"
-const searchIndices = [{ name: `Pages`, title: `Pages` }]
-
 export default function Layout({ children }) {
   return (
     <div
@@ -58,7 +55,6 @@ export default function Layout({ children }) {
         </div>
         <SocialMedia />
         <Navbar />
-        <Search indices={searchIndices} />
       </div>
       <div className="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-9 xl:col-span-9 row-span-8 sm:row-span-8 p-4 sm:p-4 md:p-8 lg:p-16 xl:p-16 flex flex-col min-h-screen">
         <div className="flex-1">{children}</div>
